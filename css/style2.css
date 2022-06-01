@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Karla:wght@200&family=Montserrat:wght@300&family=Rubik+Glitch&family=Titillium+Web:wght@600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+nav{
+    margin-top: 20px;
+    margin-left:80px;
+    font-size: 14px;
+}
+nav ul{
+    list-style: none;
+}
+.nav ul li:visited{
+    text-decoration: none;
+    color: #000000;
+}
+.conteudo h1{
+    font-size: 12px;
+    padding: 20px;
+}
+.conteudo{
+    margin:20px;
+    margin-left: 60px;
+}
