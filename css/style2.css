@@ -5,12 +5,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/****Cor do****/
 .main_container{
     font-family: 'Karla', sans-serif;
     font-size: 12.8px;
     margin-top: 25px;
     margin-left: 100px;
 }
+
+.main_container #link-first {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.75);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.75);
+}
+/****Cor d'****/
 .grid-col{
     display: grid;
     grid-template-columns: auto auto;
@@ -21,16 +30,56 @@
     margin-left: 100px;
     text-align: left;
 }
-.grid-col #right{
-    background-color: blue;
-    margin-left: -21.8rem;
+
+
+/****Cor do título 'Exposição'****/
+#title-right-1{
+    color: rgb(0, 0, 0, 0.75);
+    margin-left: -22.1rem;
 }
-.grid-col #left{
-    color: red;
+
+/****Cor/fonte do título 'Exhibitios'****/
+#title-right-2{
+    color: rgb(0, 0, 0, 0.35);
+    font-size: 10.9px;
+    font-family: 'Space Mono', Icons;
 }
-.grid-col #content-right{
-    color: green;
+
+/****Cor do título 'Bio'****/
+#title-left{
+    color: rgb(0, 0, 0, 0.75);
+    margin-bottom: 20px;
 }
+/****Formatação conteúdo da esquerda****/
+#content-left{
+    line-height: 16.5px;
+}
+
+#content-left a{
+    text-decoration: none;
+    color: rgb(0, 0, 0, 0.75);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.75);
+}
+.grid-col-2 #content-left-english{
+    display: inline-block;
+    font-family: 'Space Mono', Icons;
+    color: rgba(0, 0, 0, 0.35);
+    font-size: 11px;
+    line-height: 1.3;
+    font-weight: 400;
+}
+.grid-col-2 #content-left-english a{
+    text-decoration: none;
+    color: #000000;
+}
+
+/****Formatação do conteúdo da direita****/
+#content-right{
+    color: rgb(0, 0, 0, 0.35);
+    margin-left: -1rem;
+}
+
+/****Cor do conteúdo ****/
 .grid-col-2{
     display: grid;
     grid-template-columns: auto auto;
